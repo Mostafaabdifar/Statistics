@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="font/font-awesome.min.css">
+  <script src="js/main.js" defer></script>
   <title>Statistics</title>
 </head>
+
 <body>
-  
+  <div class="container">
+    <main class="main-section">
+      <h2>COVID-19 Cases in Iran</h2>
+      <div class="items">
+        <div class="main-item bg1"><i class="fa fa-adjust"></i><span class="caption">active cases</span><span id="active" class="result-api"></span></div>
+        <div class="main-item bg2"><i class="fa fa-times-circle"></i><span class="caption">critical cases</span><span id="critical" class="result-api"></span></div>
+        <div class="main-item bg3"><i class="fa fa-check-square"></i><span class="caption">recovered cases</span><span id="recovered" class="result-api"></span></div>
+        <div class="main-item bg4"><i class="fa fa-th-list"></i><span class="caption">total cases</span><span id="total-case" class="result-api"></span></div>
+        <div class="main-item bg5"><i class="fa fa-times"></i><span class="caption">total deaths</span><span id="total-deaths" class="result-api"></span></div>
+        <div class="main-item bg6"><i class="fa fa-eye"></i><span class="caption">total testes</span><span id="total-test" class="result-api"></span></div>
+      </div>
+    </main>
+  </div>
 </body>
+
 </html>
