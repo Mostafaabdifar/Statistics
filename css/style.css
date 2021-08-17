@@ -12,18 +12,54 @@ html {
 
 .container {
   width: 100%;
-  margin: auto;
   background: linear-gradient(#E91E63 50%, #fff 50%);
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  display: flex; }
 
 .main-section {
   width: 60%;
-  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem auto;
   background-color: #fff;
   border-radius: 3rem;
   box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.4); }
+
+.input-country {
+  margin: 1.5rem;
+  text-align: center;
+  margin: 0 auto; }
+
+#input {
+  background-color: #EEEEEE;
+  border: none;
+  border-radius: 10rem;
+  padding: 1.5rem;
+  outline: none;
+  overflow: none;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: .1rem;
+  margin-left: 2.5rem; }
+
+.search-btn {
+  background-color: #EEEEEE;
+  transform: translateX(-3.5rem);
+  border: none; }
+
+#icon-search {
+  outline: none;
+  overflow: none;
+  height: 2rem;
+  width: 2rem; }
+
+.msg {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: red; }
 
 h2 {
   text-align: center;

@@ -14,7 +14,14 @@
 <body>
   <div class="container">
     <main class="main-section">
-      <h2>COVID-19 Cases in Iran</h2>
+      <h2>COVID-19 Cases in <span id="country-name"></span></h2>
+      <form class="input-country">
+        <input type="text" placeholder="Search Country" id="input" required>
+        <button type="submit" class="search-btn" >
+          <img src="img/magnifier.svg" alt="Search Icon" id="icon-search">
+        </button>
+        <span class="msg"></span>
+      </form>
       <div class="items">
         <div class="main-item bg1"><i class="fa fa-adjust"></i><span class="caption">active cases</span><span id="active" class="result-api"></span></div>
         <div class="main-item bg2"><i class="fa fa-times-circle"></i><span class="caption">critical cases</span><span id="critical" class="result-api"></span></div>
